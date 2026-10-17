@@ -1,6 +1,6 @@
 function accessPage(page_url)
 {
-	location.href = page_url
+	window.open(page_url, "_blank");
 }
 
 function importHtml()
